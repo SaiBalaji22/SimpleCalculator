@@ -15,12 +15,14 @@
 
     // Do any additional setup after loading the view.
     
+    
 }
 
 - (void)viewDidAppear{
     [super viewDidAppear];
     NSButton* maxBtn = [self.view.window standardWindowButton:NSWindowZoomButton];
     [maxBtn setEnabled:FALSE];
+    [self.view.window setTitle:@"Caclulator"];
 }
 
 
